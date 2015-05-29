@@ -18,6 +18,7 @@ import yelp.YelpAPI;
 public class DBConnection {
 	private Connection conn = null;
 	private static final int MAX_RECOMMENDED_RESTAURANTS = 10;
+	//
 
 	public DBConnection() {
 		try {
